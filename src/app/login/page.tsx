@@ -24,7 +24,7 @@ export default function LoginPage() {
       <div className="flex flex-col h-full items-center justify-center pt-20">
         <h3 className="italic font-bold text-xl">ControleDeEstoque</h3>
       </div>
-      <Card className="w-full max-w-md shadow-lg">
+      <Card className="w-[90%] lg:w-full max-w-md shadow-lg">
         <CardHeader>
           <CardTitle className="text-left text-xl">Login</CardTitle>
           <CardDescription className="text-left">Insira suas credenciais de login abaixo e clique no botão entrar para acessar a plataforma.</CardDescription>
@@ -62,7 +62,7 @@ export default function LoginPage() {
           </form>
         </CardContent>
       </Card>
-      <div className="flex flex-col items-end justify-end pb-4">
+      <div className="flex flex-col items-end justify-end pb-4 text-center mb-6">
         Controle de Estoque © 2025 | Análise e Desenvolvimento de Sistemas
       </div>
     </div>

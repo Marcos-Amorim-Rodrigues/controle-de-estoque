@@ -31,10 +31,10 @@ export default function AnalyticsTable() {
   return (
     <div className="w-full border-2 h-auto rounded-2xl p-8">
       <div>
-        <p className="font-bold text-xl">Visão geral</p>
+        <p className="font-bold text-xl mb-4">Visão geral</p>
       </div>
       <div className="flex w-full justify-center items-center">
-        <ChartContainer config={chartConfig} className="min-h-[200px] w-1/2">
+        <ChartContainer config={chartConfig} className="min-h-[200px] lg:w-1/2">
           <BarChart accessibilityLayer data={chartData}>
             <CartesianGrid vertical={false} />
             <XAxis
