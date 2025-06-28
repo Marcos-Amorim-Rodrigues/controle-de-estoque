@@ -5,7 +5,7 @@ import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts"
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 
 const chartData = [
-  { month: "Janeiro", vendas: 186 },
+  { month: "Janeiro", vendas: 250 },
   { month: "Fevereiro", vendas: 305 },
   { month: "Março", vendas: 237 },
   { month: "Abril", vendas: 73 },
